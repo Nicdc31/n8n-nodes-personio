@@ -1,19 +1,19 @@
 {
-  "name": "n8n-nodes-<...>",
+  "name": "n8n-nodes-personio",
   "version": "0.1.0",
-  "description": "",
+  "description": "Personio API Node",
   "keywords": [
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://www.personio.com",
   "author": {
-    "name": "",
-    "email": ""
+    "name": "ooop",
+    "email": "ooop@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/<...>/n8n-nodes-<...>.git"
+    "url": ""
   },
   "engines": {
     "node": ">=18.10",
