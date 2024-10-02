@@ -7,10 +7,7 @@
   ],
   "license": "MIT",
   "homepage": "https://www.personio.com",
-  "author": {
-    "name": "ooop",
-    "email": "ooop@gmail.com"
-  },
+  "author": "ooop <ooop@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/Nicdc31/n8n-nodes-personio.git"
@@ -53,5 +50,8 @@
   },
   "peerDependencies": {
     "n8n-workflow": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/Nicdc31/n8n-nodes-personio/issues"
   }
 }
