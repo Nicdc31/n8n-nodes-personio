@@ -30,9 +30,19 @@ export class Personio implements INodeType {
 		},
 		properties: [
 			{
+			displayName: 'Client ID',
+			name: 'clientId',
+			type: 'string',
+			default: '',
+			},
+			{
+			displayName: 'Client Secret',
+			name: 'clientSecret',
+			type: 'string',
+			typeOptions: { password: true },
+			default: '',
 			},
 			// Operations will go here
-
 		]
 	};
 }
