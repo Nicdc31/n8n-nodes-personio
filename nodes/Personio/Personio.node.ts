@@ -1,5 +1,6 @@
 import { INodeType, INodeTypeDescription } from 'n8n-workflow';
-export class NasaPics implements INodeType {
+
+export class Personio implements INodeType {
 	description: INodeTypeDescription = {
 		// Basic node details will go here
 		displayName: 'Personio',
@@ -21,7 +22,7 @@ export class NasaPics implements INodeType {
 			},
 		],
 		requestDefaults: {
-			baseURL: 'https://api.nasa.gov',
+			baseURL: 'https://api.personio.de/',
 			headers: {
 				Accept: 'application/json',
 				'Content-Type': 'application/json',
@@ -29,17 +30,6 @@ export class NasaPics implements INodeType {
 		},
 		properties: [
 			{
-				displayName: 'Resource',
-				name: 'resource',
-				type: 'options',
-				noDataExpression: true,
-				options: [
-					{
-						name: 'Astronomy Picture of the Day',
-						value: 'astronomyPictureOfTheDay',
-					}
-				],
-				default: 'astronomyPictureOfTheDay',
 			},
 			// Operations will go here
 
