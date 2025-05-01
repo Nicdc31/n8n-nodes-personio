@@ -38,7 +38,7 @@
       "dist/credentials/PersonioOAuth2Api.credentials.js"
     ],
     "nodes": [
-      "dist/nodes/Personio/Personio.node.ts"
+      "dist/nodes/Personio/Personio.node.js"
     ]
   },
   "devDependencies": {
